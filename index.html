@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Principalstyle.css">
+    <link rel="shortcut icon" href="./assets/svg/032-veterinary.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Healthy Tails</title>
+</head>
+
+<body>
+    <main>
+
+        <i class="icon-menu burger-button" id="burger-menu"></i>
+
+
+        <h1 class="main-title">Healthy Tails</h1>
+        <img src="./assets/png/023-puppy.png" alt="logo" class="logo">
+
+        <div class="container">
+            <div id="list" class="list">
+                <ul>
+                    <!-- Cambiar el onclick y realizarlo en el archivo del codigo mediante un listener -->
+                    <li>
+                        <a class="link" href="#about" onclick="hideMenu()">About</a>
+                    </li>
+
+                    <li>
+                        <a class="link" href="#events" onclick="hideMenu()">Events</a>
+                    </li>
+
+                    <li>
+                        <a class="link" href="#buddies" onclick="hideMenu()">Buddies</a>
+                    </li>
+
+                    <li>
+                        <a class="link" href="#contact" onclick="hideMenu()">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="banner">
+            <img src="./img/dog2.jpg" alt="banner" class="banner-img">
+        </section>
+        <section class="about" id="about">
+            <h2 class="about-slogan">
+                Protecting all seven lives
+            </h2>
+            <p class="about-theme">Quality pet care and those funny neck cones, too.</p>
+        </section>
+        <section class="events" id="events">
+            <h2 class="event-title">Adoption Fest</h2>
+            <article class="event-detail">
+                <p>
+                    Adoption Fest will celebrate the 15th year with a covid-free virtual online event with extended days
+                    from June 21st through 23rd. The event will feature online adoptions from shelters and rescues,
+                    shopping with local pet related businesses and a first time $500 CASH GRAND PRIZE for best contest
+                    video.
+                </p>
+                <div class="event-img-container">
+                    <img src="./img/pets.jpg" alt="cat-and-dog" class="event-img">
+                </div>
+            </article>
+
+        </section>
+        <section class="buddies" id="buddies">
+            <h2>Buddies</h2>
+            <article class="buddies-img-container">
+                <img src="/img/dogtor1.jpg" alt="Dog doctor" class="buddie-img">
+                <img src="./img/cattor1.jpg" alt="Cat doctor" class="buddie-img">
+                <img src="./img/birdtor1.jpg" alt="Bird" class="buddie-img">
+                <img src="./img/birdtor2.jpeg" alt="Bird 2" class="buddie-img">
+            </article>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact</h2>
+            <article class="contact-detail">
+                <iframe width="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Serrano%20266+(Healthy%20Tails)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                    class="contact-map"></iframe>
+
+                <article class="contact-us">
+                    <p class="phone"> <span class="contact-icon"> <img src="./assets/png/llamada-telefonica.png"
+                                alt="telefono"></span>
+                        +56
+                        9 3137 8997</p>
+                    <p class="email"> <span class="contact-icon"> <img src="./assets/png/email.png" alt="email"></span>
+                        healthytails@grrmail.com</p>
+                </article>
+            </article>
+
+    </main>
+
+    <footer>
+        <section class="left">
+            <ul>
+                <li> <a href="https://www.linkedin.com/in/hernan-amaiz-367b08103/" target="_blank"> LinkedIn</a>
+                </li>
+
+                <li> <a href="https://github.com/Maizo21" target="_blank">Github</a></li>
+
+                <li> <a href="https://www.instagram.com/maizorito_/" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+
+        <section class="right">
+            <img src="./assets/svg/015-hospital.svg" alt="Logo hospital">
+            <p>Hernan Amaiz 2020</p>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
