@@ -363,7 +363,7 @@ footer .left ul {
 .buddies-img-container::-webkit-scrollbar {
   width: 8px; /* Tamaño del scroll en vertical */
   height: 8px; /* Tamaño del scroll en horizontal */
-  /* Ocultar scroll */
+  display: block;
 }
 
 /* Ponemos un color de fondo y redondeamos las esquinas del thumb */
