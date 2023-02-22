@@ -574,14 +574,6 @@ footer .left ul {
     width: 75%;
   }
 
-  .buddies-img-container {
-    flex-direction: column;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
-    overflow-x: hidden;
-  }
-
   .buddie-img {
     height: 450px;
   }
